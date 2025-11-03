@@ -1,0 +1,4 @@
+users.py lines 24-26
+def debug():
+return_value = jsonify({'users': User.get_all_users_debug()})
+return return_value
